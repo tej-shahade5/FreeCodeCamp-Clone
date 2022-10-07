@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons Scripts -->
+    <script src="https://kit.fontawesome.com/384061e290.js" crossorigin="anonymous"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar-container">
+            <div class="serach-box-container">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                <input type="search" name="serach-box" id="search-box" placeholder="Search 8,000+ tutorials">
+            </div>
+            <div class="logo-container">
+                <a href="#">
+                    <img class="logo" src="img/freelogo.jpg" alt="">
+                </a>
+            </div>
+            <div class="menu-container">
+                <div class="dropdown">
+                    <button class="menu-btn" onclick="myFunction()">Menu</button>
+                    <div class="dropdown-content" id="myDropdown">
+                      <a href="#">Donate</a>
+                      <a href="#">Curriculum</a>
+                      <a href="#">Forum <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="#">News <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="#">Radio <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      <a href="#">Sign in to change theme.</a>
+                      <a href="#">Change Language <i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    </div> 
+                <button class="btn">Sign in</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing section -->
+    <section id="landing-sec">
+        <div class="heading">
+            <p>Learn to code — for free.</p>
+            <p>Build projects.</p>
+            <p>Earn certifications.</p>
+        </div>
+        <div class="info">
+            <p>Since 2014, more than 40,000 freeCodeCamp.org grauduates have gotten jobs  at tech companies including:</p>
+        </div>
+        <div class="company">
+            <i class="fa-brands fa-2x fa-apple"></i>
+            <span class="company-text mr">Google</span>
+            <i class="mr fa-brands fa-2x fa-microsoft"></i>
+            <span class="company-text">Microsoft</span>
+            <i class="mr fa-brands fa-2x fa-spotify"></i>
+            <span class="company-text">Spotify</span>
+            <i class="mr fa-brands fa-2x fa-amazon"></i>
+            <span class="company-text">amazon</span>
+        </div>   
+        <div class="start-btn">
+            <button class="def-btn">Get started (it's free)</button>
+        </div>        
+        <div class="team-picture">
+            <img src="img/team.png" alt="">
+            <p class="team-info">freeCodeCamp students at a local study group in South Korea.</p>
+        </div>
+    </section>
+
+    <!-- Sponcers section -->
+    <section id="sponcers-sec">
+        <b class="spon-heading">As seen in:</b>
+        <div class="spon-container">
+            <div class="fr">
+                <img class="logo-size" src="img/wired.png" alt="">
+                <img class="logo-size" src="img/bi.png" alt="">
+                <img class="logo-size" src="img/inc.png" alt="">
+                <img class="logo-size" src="img/lifehacker.png" alt="">
+                <img class="logo-size" src="img/time.png" alt="">
+                <img class="logo-size" src="img/quartz.png" alt="">
+            </div>
+            <div class="sr">
+                <img class="logo-size" src="img/usatoday.png" alt="">
+                <img class="logo-size" src="img/new.png" alt="">
+                <img class="logo-size" src="img/bbc.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testomonial section -->
+    <section id="testo-sec">
+        <div class="testo-heading">
+            <h2>Here is what our alumni say about freeCodeCamp:</h2>
+        </div>
+        <div class="covers-container">
+            <div class="cover">
+                <img src="img/cover1.png" alt="">
+                <div class="content">
+                    <div class="cover-heading">
+                        <p><strong>Shawn Wang</strong> in Singapore</p>
+                        <p>Software Engineer at <strong>Amazon</strong></p>
+                    </div>
+                    <p class="cover-info">"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer. <strong>freeCodeCamp changed my life</strong>."</p>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="img/cover2.png" alt="">
+                <div class="content">
+                    <div class="cover-heading">
+                        <p><strong>Sarah Chima</strong>  in Nigeria</p>
+                        <p>Software Engineer at <strong>ChatDesk</strong></p>
+                    </div>
+                    <p class="cover-info">"<strong>freeCodeCamp was the gateway to my career</strong> as a software developer. The well-structured curriculum took my coding knowledge from a total beginner level to a very confident level. It was everything I needed to land my first dev job at an amazing company."</p>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="img/cover3.png" alt="">
+                <div class="content">
+                    <div class="cover-heading">
+                        <p><strong>Emma Bostian</strong> in Sweden</p>
+                        <p>Software Engineer at <strong>Spotify</strong></p>
+                    </div>
+                    <p class="cover-info">"I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on <strong>freeCodeCamp gave me the skills</strong> and confidence I needed to land my dream job as a software engineer at Spotify."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate section -->
+    <section id="certificate">
+        <ul class="course-container">
+            <h2 class="cer-heading">Earn free verified certifications in:</h2>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-laptop-code"></i>
+                <span class="text-pos">(New) Responsive Web Design</span>   
+                <i class="icon-pos fa-solid fa-angles-right"></i>            
+            </li>
+            <li class="courses"> 
+                <i class="fa-solid fa-2x fa-laptop-code"></i>
+                <span class="text-pos">Legacy Responsive Web Design</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-brands fa-2x fa-js"></i>
+                <span class="text-pos">JavaScript Algorithms and Data Structures</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-brands fa-2x fa-react"></i>
+                <span class="text-pos">Front End Development Libraries</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-chart-pie"></i>
+                <span class="text-pos">Data Visualization</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-database"></i>
+                <span class="text-pos">Relational Database (Beta)</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-server"></i>
+                <span class="text-pos">Back End Development and APIs</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-list-check"></i>
+                <span class="text-pos">Quality Assurance</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-brands fa-2x fa-python"></i>
+                <span class="text-pos">Scientific Computing with Python</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-chart-line"></i>
+                <span class="text-pos">Data Analysis with Python</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-shield-halved"></i>
+                <span class="text-pos">Information Security</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+            <li class="courses">
+                <i class="fa-solid fa-2x fa-brain"></i>
+                <span class="text-pos">Machine Learning with Python</span>
+                <i class="icon-pos fa-solid fa-angles-right"></i>
+            </li>
+        </ul>
+        <div class="start-btn">
+            <button class="def-btn">Get started (it's free)</button>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer">
+        <div class="abv-foot">
+            <div class="left-about">
+                <p>FreeCodeCamp is a donor-supported tax-exempt 501 (c) (3) nonprofit organization (United States Federal Tax Identification Number : 82-0779546)</p>
+                <p>Our mission : to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.</p>
+                <p>Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.</p>
+                <br>
+                <b>You can <a href="#">make a tax-deductible donation here.</a></b>
+            </div>
+            
+            <div class="right-about">
+                <b>Trending Guides</b>
+                <div class="link-container">
+                    <div class="st">
+                        <p><a href="#">Discord Won't Open</a></p>
+                        <p><a href="#">Learn Java Courses</a></p>
+                        <p><a href="#">SQL Like Statement</a></p>
+                        <p><a href="#">File Explorer Error</a></p>
+                        <p><a href="#">Python Find in List</a></p>
+                        <p><a href="#">Function in Python</a></p>
+                        <p><a href="#">Python Reverse List</a></p>
+                        <p><a href="#">Create a  Table in SQL</a></p>
+                        <p><a href="#">List Index Out of Range</a></p>
+                        <p><a href="#">Python String.Replace()</a></p>
+                    </div>
+                    <div class="nd">
+                        <p><a href="#">C vs C++</a></p>
+                        <p><a href="#">Python JSON</a></p>
+                        <p><a href="#">What is a PC?</a></p>
+                        <p><a href="#">What is Coding?</a></p>
+                        <p><a href="#">Text Box in HTML</a></p>
+                        <p><a href="#">Meta tag in HTML</a></p>
+                        <p><a href="#">Python Reverse List</a></p>
+                        <p><a href="#">Append in Python</a></p>
+                        <p><a href="#">Linux awk Command</a></p>
+                        <p><a href="#">JS String Contains</a></p>
+                    </div>
+                    <div class="th">
+                        <p><a href="#">How to Open Task Manager</a></p>
+                        <p><a href="#">Design Thinking Explained</a></p>
+                        <p><a href="#">Learn Programming Courses</a></p>
+                        <p><a href="#">Make a transparent Taskbar</a></p>
+                        <p><a href="#">Install Ethernet Driver PC</a></p>
+                        <p><a href="#">Default Contstructor in Java</a></p>
+                        <p><a href="#">Stuck Win 10 Hard Drive</a></p>
+                        <p><a href="#">Color Codes for Grey Palette</a></p>
+                        <p><a href="#">Binary Search Tree Traversal</a></p>
+                        <p><a href="#">RTC Connecting Discord Fix</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="bottom-link">
+            <span><a href="#">About</a></span>
+            <span><a href="#">Open Source</a></span>
+            <span><a href="#">Shop</a></span>
+            <span><a href="#">Support</a></span>
+            <span><a href="#">Sponsors</a></span>
+            <span><a href="#">Academic Honesty</a></span>
+            <span><a href="#">Code of Conduct</a></span>
+            <span><a href="#">Privacy Policy</a></span>
+            <span><a href="#">Term of Service</a></span>
+            <span><a href="#">Copyright Policy</a></span>
+        </div>
+    </section>
+
+    <!-- JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
